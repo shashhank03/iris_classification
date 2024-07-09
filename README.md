@@ -73,36 +73,18 @@ This project is an Iris Flower Classification system that uses machine learning 
 
 ```
 .
-├── manage.py
+├── ipynb_checkpoints/
+├── static/
+├── templates/
+├── Iris.csv
+├── Procfile.txt
+├── README.md
+├── deploy.py
+├── iris.ipynb
 ├── requirements.txt
-├── train_model.py
-├── venv/
-├── app_name/
-│   ├── __init__.py
-│   ├── admin.py
-│   ├── apps.py
-│   ├── migrations/
-│   ├── models.py
-│   ├── tests.py
-│   ├── views.py
-│   ├── urls.py
-│   ├── templates/
-│   │   └── ...
-│   └── static/
-│       └── ...
-├── project_name/
-│   ├── __init__.py
-│   ├── settings.py
-│   ├── urls.py
-│   └── wsgi.py
-└── ml/
-    ├── __init__.py
-    ├── iris_classifier.py
-    ├── train_model.py
-    └── models/
-        └── iris_model.pkl
+├── saved_model1.pkl
+└── scaler.save
 ```
-
 ## Contributing
 
 1. Fork the repository.
